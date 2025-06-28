@@ -14,7 +14,7 @@ root.geometry("600x400")
 fig = Figure(figsize=(5, 4), dpi=100)
 plot1 = fig.add_subplot(1, 1, 1)
 
-# * Chart integratio
+# * Chart integration
 chart = FigureCanvasTkAgg(fig, root)
 chart.get_tk_widget().pack()
 chart.draw()
